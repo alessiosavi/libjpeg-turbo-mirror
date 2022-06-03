@@ -1,0 +1,483 @@
+The system is: Linux - 5.17.11-200.fc35.x86_64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/3.22.2/CompilerIdC/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_97c38/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_97c38.dir/build.make CMakeFiles/cmTC_97c38.dir/build
+gmake[1]: Entering directory '/opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_97c38.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_97c38.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-redhat-linux
+Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,objc,obj-c++,ada,go,d,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-11.3.1-20220421/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.3.1 20220421 (Red Hat 11.3.1-2) (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_97c38.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_97c38.dir/'
+ /usr/libexec/gcc/x86_64-redhat-linux/11/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_97c38.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccCLu7G7.s
+GNU C17 (GCC) version 11.3.1 20220421 (Red Hat 11.3.1-2) (x86_64-redhat-linux)
+	compiled by GNU C version 11.3.1 20220421 (Red Hat 11.3.1-2), GMP version 6.2.0, MPFR version 4.1.0-p13, MPC version 1.2.1, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/11/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/11/../../../../x86_64-redhat-linux/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-redhat-linux/11/include
+ /usr/local/include
+ /usr/include
+End of search list.
+GNU C17 (GCC) version 11.3.1 20220421 (Red Hat 11.3.1-2) (x86_64-redhat-linux)
+	compiled by GNU C version 11.3.1 20220421 (Red Hat 11.3.1-2), GMP version 6.2.0, MPFR version 4.1.0-p13, MPC version 1.2.1, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: fb12fe032ab929b57a8d5de93c41d184
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_97c38.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_97c38.dir/'
+ as -v --64 -o CMakeFiles/cmTC_97c38.dir/CMakeCCompilerABI.c.o /tmp/ccCLu7G7.s
+GNU assembler version 2.37 (x86_64-redhat-linux) using BFD version version 2.37-17.fc35
+COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_97c38.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_97c38.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_97c38
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97c38.dir/link.txt --verbose=1
+/usr/bin/cc  -v CMakeFiles/cmTC_97c38.dir/CMakeCCompilerABI.c.o -o cmTC_97c38 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-redhat-linux
+Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,objc,obj-c++,ada,go,d,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-11.3.1-20220421/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.3.1 20220421 (Red Hat 11.3.1-2) (GCC) 
+COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_97c38' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_97c38.'
+ /usr/libexec/gcc/x86_64-redhat-linux/11/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/11/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfF6Apo.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_97c38 /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/11 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../.. CMakeFiles/cmTC_97c38.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-redhat-linux/11/crtend.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_97c38' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_97c38.'
+gmake[1]: Leaving directory '/opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-redhat-linux/11/include]
+    add: [/usr/local/include]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/11/include] ==> [/usr/lib/gcc/x86_64-redhat-linux/11/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-redhat-linux/11/include;/usr/local/include;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_97c38/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_97c38.dir/build.make CMakeFiles/cmTC_97c38.dir/build]
+  ignore line: [gmake[1]: Entering directory '/opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_97c38.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_97c38.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c c++ fortran objc obj-c++ ada go d lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-11.3.1-20220421/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.3.1 20220421 (Red Hat 11.3.1-2) (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_97c38.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_97c38.dir/']
+  ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/11/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_97c38.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccCLu7G7.s]
+  ignore line: [GNU C17 (GCC) version 11.3.1 20220421 (Red Hat 11.3.1-2) (x86_64-redhat-linux)]
+  ignore line: [	compiled by GNU C version 11.3.1 20220421 (Red Hat 11.3.1-2)  GMP version 6.2.0  MPFR version 4.1.0-p13  MPC version 1.2.1  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/11/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/11/../../../../x86_64-redhat-linux/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/11/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GCC) version 11.3.1 20220421 (Red Hat 11.3.1-2) (x86_64-redhat-linux)]
+  ignore line: [	compiled by GNU C version 11.3.1 20220421 (Red Hat 11.3.1-2)  GMP version 6.2.0  MPFR version 4.1.0-p13  MPC version 1.2.1  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: fb12fe032ab929b57a8d5de93c41d184]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_97c38.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_97c38.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_97c38.dir/CMakeCCompilerABI.c.o /tmp/ccCLu7G7.s]
+  ignore line: [GNU assembler version 2.37 (x86_64-redhat-linux) using BFD version version 2.37-17.fc35]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_97c38.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_97c38.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_97c38]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97c38.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_97c38.dir/CMakeCCompilerABI.c.o -o cmTC_97c38 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c c++ fortran objc obj-c++ ada go d lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-11.3.1-20220421/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.3.1 20220421 (Red Hat 11.3.1-2) (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_97c38' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_97c38.']
+  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/11/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/11/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfF6Apo.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_97c38 /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/11 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../.. CMakeFiles/cmTC_97c38.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-redhat-linux/11/crtend.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crtn.o]
+    arg [/usr/libexec/gcc/x86_64-redhat-linux/11/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/libexec/gcc/x86_64-redhat-linux/11/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccfF6Apo.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_97c38] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o]
+    arg [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crti.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crti.o]
+    arg [/usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/11] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/11]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/11/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/11/../../..]
+    arg [CMakeFiles/cmTC_97c38.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/11/crtend.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/11/crtend.o]
+    arg [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crtn.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o] ==> [/usr/lib64/crt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crti.o] ==> [/usr/lib64/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crtn.o] ==> [/usr/lib64/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/11] ==> [/usr/lib/gcc/x86_64-redhat-linux/11]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/11/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/usr/lib64/crt1.o;/usr/lib64/crti.o;/usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o;/usr/lib/gcc/x86_64-redhat-linux/11/crtend.o;/usr/lib64/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-redhat-linux/11;/usr/lib64;/lib64;/usr/lib]
+  implicit fwks: []
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_abe42/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_abe42.dir/build.make CMakeFiles/cmTC_abe42.dir/build
+gmake[1]: Entering directory '/opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_abe42.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_abe42.dir/CheckIncludeFile.c.o -c /opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_abe42
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_abe42.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_abe42.dir/CheckIncludeFile.c.o -o cmTC_abe42 
+gmake[1]: Leaving directory '/opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_90309/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_90309.dir/build.make CMakeFiles/cmTC_90309.dir/build
+gmake[1]: Entering directory '/opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_90309.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_90309.dir/CheckIncludeFile.c.o -c /opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_90309
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90309.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_90309.dir/CheckIncludeFile.c.o -o cmTC_90309 
+gmake[1]: Leaving directory '/opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cec98/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cec98.dir/build.make CMakeFiles/cmTC_cec98.dir/build
+gmake[1]: Entering directory '/opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cec98.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_cec98.dir/CheckIncludeFile.c.o -c /opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_cec98
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cec98.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_cec98.dir/CheckIncludeFile.c.o -o cmTC_cec98 
+gmake[1]: Leaving directory '/opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5f65e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5f65e.dir/build.make CMakeFiles/cmTC_5f65e.dir/build
+gmake[1]: Entering directory '/opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5f65e.dir/SIZE_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_5f65e.dir/SIZE_T.c.o -c /opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CheckTypeSize/SIZE_T.c
+Linking C executable cmTC_5f65e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f65e.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_5f65e.dir/SIZE_T.c.o -o cmTC_5f65e 
+gmake[1]: Leaving directory '/opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of unsigned long passed with the following output:
+Change Dir: /opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_be79f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_be79f.dir/build.make CMakeFiles/cmTC_be79f.dir/build
+gmake[1]: Entering directory '/opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_be79f.dir/UNSIGNED_LONG.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_be79f.dir/UNSIGNED_LONG.c.o -c /opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CheckTypeSize/UNSIGNED_LONG.c
+Linking C executable cmTC_be79f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be79f.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_be79f.dir/UNSIGNED_LONG.c.o -o cmTC_be79f 
+gmake[1]: Leaving directory '/opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test HAVE_BUILTIN_CTZL succeeded with the following output:
+Change Dir: /opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_85364/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_85364.dir/build.make CMakeFiles/cmTC_85364.dir/build
+gmake[1]: Entering directory '/opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_85364.dir/src.c.o
+/usr/bin/cc -DHAVE_BUILTIN_CTZL   -o CMakeFiles/cmTC_85364.dir/src.c.o -c /opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_85364
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85364.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_85364.dir/src.c.o -o cmTC_85364 
+gmake[1]: Leaving directory '/opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(int argc, char **argv) { unsigned long a = argc;  return __builtin_ctzl(a); }
+Determining if files locale.h exist passed with the following output:
+Change Dir: /opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9f9d1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9f9d1.dir/build.make CMakeFiles/cmTC_9f9d1.dir/build
+gmake[1]: Entering directory '/opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9f9d1.dir/HAVE_LOCALE_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_9f9d1.dir/HAVE_LOCALE_H.c.o -c /opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CheckIncludeFiles/HAVE_LOCALE_H.c
+Linking C executable cmTC_9f9d1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f9d1.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_9f9d1.dir/HAVE_LOCALE_H.c.o -o cmTC_9f9d1 
+gmake[1]: Leaving directory '/opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files stdlib.h exist passed with the following output:
+Change Dir: /opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_92007/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_92007.dir/build.make CMakeFiles/cmTC_92007.dir/build
+gmake[1]: Entering directory '/opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_92007.dir/HAVE_STDLIB_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_92007.dir/HAVE_STDLIB_H.c.o -c /opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CheckIncludeFiles/HAVE_STDLIB_H.c
+Linking C executable cmTC_92007
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92007.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_92007.dir/HAVE_STDLIB_H.c.o -o cmTC_92007 
+gmake[1]: Leaving directory '/opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/types.h exist passed with the following output:
+Change Dir: /opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e85d1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e85d1.dir/build.make CMakeFiles/cmTC_e85d1.dir/build
+gmake[1]: Entering directory '/opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e85d1.dir/NEED_SYS_TYPES_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e85d1.dir/NEED_SYS_TYPES_H.c.o -c /opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CheckIncludeFiles/NEED_SYS_TYPES_H.c
+Linking C executable cmTC_e85d1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e85d1.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_e85d1.dir/NEED_SYS_TYPES_H.c.o -o cmTC_e85d1 
+gmake[1]: Leaving directory '/opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the memset exist passed with the following output:
+Change Dir: /opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e78d8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e78d8.dir/build.make CMakeFiles/cmTC_e78d8.dir/build
+gmake[1]: Entering directory '/opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e78d8.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e78d8.dir/CheckSymbolExists.c.o -c /opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e78d8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e78d8.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_e78d8.dir/CheckSymbolExists.c.o -o cmTC_e78d8 
+gmake[1]: Leaving directory '/opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp'
+
+
+File /opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memset
+  return ((int*)(&memset))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the memcpy exist passed with the following output:
+Change Dir: /opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e2d06/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e2d06.dir/build.make CMakeFiles/cmTC_e2d06.dir/build
+gmake[1]: Entering directory '/opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e2d06.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e2d06.dir/CheckSymbolExists.c.o -c /opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e2d06
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2d06.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_e2d06.dir/CheckSymbolExists.c.o -o cmTC_e2d06 
+gmake[1]: Leaving directory '/opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp'
+
+
+File /opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memcpy
+  return ((int*)(&memcpy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining size of unsigned char passed with the following output:
+Change Dir: /opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a883b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a883b.dir/build.make CMakeFiles/cmTC_a883b.dir/build
+gmake[1]: Entering directory '/opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a883b.dir/UNSIGNED_CHAR.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_a883b.dir/UNSIGNED_CHAR.c.o -c /opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CheckTypeSize/UNSIGNED_CHAR.c
+Linking C executable cmTC_a883b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a883b.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_a883b.dir/UNSIGNED_CHAR.c.o -o cmTC_a883b 
+gmake[1]: Leaving directory '/opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_97b2c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_97b2c.dir/build.make CMakeFiles/cmTC_97b2c.dir/build
+gmake[1]: Entering directory '/opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_97b2c.dir/UNSIGNED_SHORT.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_97b2c.dir/UNSIGNED_SHORT.c.o -c /opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CheckTypeSize/UNSIGNED_SHORT.c
+Linking C executable cmTC_97b2c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97b2c.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_97b2c.dir/UNSIGNED_SHORT.c.o -o cmTC_97b2c 
+gmake[1]: Leaving directory '/opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test INCOMPLETE_TYPES succeeded with the following output:
+Change Dir: /opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a4c3e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a4c3e.dir/build.make CMakeFiles/cmTC_a4c3e.dir/build
+gmake[1]: Entering directory '/opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a4c3e.dir/src.c.o
+/usr/bin/cc -DINCOMPLETE_TYPES   -o CMakeFiles/cmTC_a4c3e.dir/src.c.o -c /opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a4c3e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4c3e.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_a4c3e.dir/src.c.o -o cmTC_a4c3e 
+gmake[1]: Leaving directory '/opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { typedef struct undefined_structure *undef_struct_ptr;  undef_struct_ptr ptr = 0;  return ptr != 0; }
+Performing C SOURCE FILE Test INLINE_WORKS succeeded with the following output:
+Change Dir: /opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b41b1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b41b1.dir/build.make CMakeFiles/cmTC_b41b1.dir/build
+gmake[1]: Entering directory '/opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b41b1.dir/src.c.o
+/usr/bin/cc -DINLINE_WORKS   -o CMakeFiles/cmTC_b41b1.dir/src.c.o -c /opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_b41b1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b41b1.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_b41b1.dir/src.c.o -o cmTC_b41b1 
+gmake[1]: Leaving directory '/opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+__inline__ __attribute__((always_inline)) static int foo(void) { return 0; } int main(void) { return foo(); }
+Performing C SOURCE FILE Test HAVE_THREAD_LOCAL succeeded with the following output:
+Change Dir: /opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_688b1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_688b1.dir/build.make CMakeFiles/cmTC_688b1.dir/build
+gmake[1]: Entering directory '/opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_688b1.dir/src.c.o
+/usr/bin/cc -DHAVE_THREAD_LOCAL   -o CMakeFiles/cmTC_688b1.dir/src.c.o -c /opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_688b1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_688b1.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_688b1.dir/src.c.o -o cmTC_688b1 
+gmake[1]: Leaving directory '/opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+__thread int i;  int main(void) { i = 0;  return i; }
+Performing C SOURCE FILE Test HAVE_VERSION_SCRIPT succeeded with the following output:
+Change Dir: /opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_55895/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_55895.dir/build.make CMakeFiles/cmTC_55895.dir/build
+gmake[1]: Entering directory '/opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_55895.dir/src.c.o
+/usr/bin/cc -DHAVE_VERSION_SCRIPT  -Wl,--version-script,/opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/conftest.map -o CMakeFiles/cmTC_55895.dir/src.c.o -c /opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_55895
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55895.dir/link.txt --verbose=1
+/usr/bin/cc  -Wl,--version-script,/opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/conftest.map CMakeFiles/cmTC_55895.dir/src.c.o -o cmTC_55895 
+gmake[1]: Leaving directory '/opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Looking for a ASM_NASM compiler passed with the following output:
+-- The ASM_NASM compiler identification is NASM
+-- Found assembler: /usr/bin/nasm
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr/simd/CMakeFiles/CheckASM_NASM
+
+Checking whether the ASM_NASM compiler is NASM using "-v" matched "(NASM version)":
+NASM version 2.15.05 compiled on Nov  3 2021

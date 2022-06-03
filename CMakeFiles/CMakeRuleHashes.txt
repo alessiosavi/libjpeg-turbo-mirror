@@ -1,0 +1,17 @@
+# Hashes of file build rules.
+bebf717b256ab293ffbd533bc3736e77 CMakeFiles/croptest
+155bddbd57907b8c0367c8737239cd3c CMakeFiles/deb
+790aac8bbf1293d8ffc4efd3f8846825 CMakeFiles/dist
+1b656121a388e386d26e01a724813f90 CMakeFiles/rpm
+f7888be974126909c3a3c5f7f2ed489a CMakeFiles/srpm
+ee7818e4ad426fa794d7e4e4f7300fbe CMakeFiles/tarball
+a28763e54e481c496f8265c720981038 CMakeFiles/testclean
+d38cc5664d91ca5a4ee49ba6152f1f39 CMakeFiles/tjtest
+7f91295f65215f841f03f1e25e88fdcd CMakeFiles/uninstall
+375b6293eb8c16b12cc41448ceddf2ad java/CMakeFiles/javadoc
+c93afac3c77e11867fe4a3ae5cd18f33 java/CMakeFiles/javah
+4c16bebdf79fb135e483a4d139ce56ff java/CMakeFiles/turbojpeg-java
+2b14a8c354bf19d0a599d5d5f5c62307 java/CMakeFiles/turbojpeg-java.dir/java_class_filelist
+592f7747b267b65501f2b98f533567a8 java/CMakeFiles/turbojpeg-java.dir/java_compiled_turbojpeg-java
+069e4c8ff0610a59757fe8870db7257e java/turbojpeg.jar
+753dba7354ec84ef5f5d3438299c3718 simd/CMakeFiles/jsimdcfg

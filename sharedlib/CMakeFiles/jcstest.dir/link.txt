@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/jcstest.dir/__/jcstest.c.o -o ../jcstest  -Wl,-rpath,/opt/Workspace/TypeScript/007/libjpeg-turbo-2.0.7-esr ../libjpeg.so.62.3.0 
